@@ -37,4 +37,7 @@ export default {
     .present-false{
         font-weight: bold;
     }
+    img{
+        width:22px;
+    }
 </style>

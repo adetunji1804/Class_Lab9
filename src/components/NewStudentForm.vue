@@ -2,7 +2,7 @@
     <div>
 
          <div class="alert alert-danger" v-show="errors && errors.length > 0">
-            <li v-for="error in errors">{{ error }}</li>
+            <li v-for="error in errors" v-bind:key="error.newStarID">{{ error }}</li>
         </div>
         <div class="card add-student m-2 p-2">
             <form>
